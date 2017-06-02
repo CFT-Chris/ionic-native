@@ -41,6 +41,16 @@ export interface SpeechRecognitionListeningOptionsAndroid {
    * display listener popup window with prompt (default `true`)
    */
   showPopup?: boolean;
+  
+  /**
+   * Allow partial results to be returned (default `false`)
+   */
+  showPartial?: boolean;
+  
+  /**
+   * Prefer offline speech recognition (default `false`)
+   */
+  preferOffline: boolean;
 }
 
 /**
